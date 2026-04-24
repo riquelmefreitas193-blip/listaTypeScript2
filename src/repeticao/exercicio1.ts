@@ -2,6 +2,7 @@
 //  Quantidade de números digitados
 //  Soma total
 
+export function exercicio1(){
 let num:number = 1, contador:number = 0, Soma:number = 0
 
 while(num != 0){
@@ -12,3 +13,5 @@ while(num != 0){
 }
 console.log("Quantidades de número digitados ", contador)
 console.log("A somas total é ", Soma)
+
+}
